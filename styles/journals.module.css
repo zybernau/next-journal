@@ -1,0 +1,63 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: calc();
+}
+
+.journal:hover{
+  -webkit-box-shadow: 3px 4px 18px 3px #fff;
+  -moz-box-shadow: 3px 4px 18px 3px #fff;
+  box-shadow: 3px 4px 18px 3px #fff;
+}
+.journal {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+
+  -webkit-box-shadow: 3px 4px 14px -6px #fff;
+  -moz-box-shadow: 3px 4px 14px -6px #fff;
+  box-shadow: 3px 4px 14px -6px #fff;
+}
+
+.journlHead {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem;
+  justify-content: center;
+}
+
+.journlHeadItem {
+  display: flex;
+  padding: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.message {
+  display: flex;
+  padding: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.date {
+  display: flex;
+  padding: 0.2rem;
+  justify-content: center;
+  font-size: x-small;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}

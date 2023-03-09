@@ -1,0 +1,48 @@
+/* KEYFRAMES */
+
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .25;
+    transform: scale(.75);
+  }
+}
+
+.spinnerBox {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+/* PULSE BUBBLES */
+
+.pulseContainer {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulseBubble {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.pulseBubble1 {
+    animation: pulse .4s ease 0s infinite alternate;
+}
+.pulseBubble2 {
+    animation: pulse .4s ease .2s infinite alternate;
+}
+.pulseBubble3 {
+    animation: pulse .4s ease .4s infinite alternate;
+}
